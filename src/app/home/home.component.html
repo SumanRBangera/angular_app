@@ -1,0 +1,32 @@
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" style="height: 350px;">
+      <div class="carousel-item active" >
+        <img src="../../assets/images/pexels-cottonbro-7440053.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/images/pexels-sora-shimazaki-5926433.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/images/pexels-diana-light-4830923.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    <br>
+   
+    <div class="twoway">
+        Enter the Color to see the changes:  
+        <br>
+        <input [(ngModel)]="mycolor" type="text" style="border-radius:10px;">
+     
+        <br> <br> <br>
+        <button (click)="onSearch()" [style.background-color]="mycolor">Click for Event Binding</button>
+    </div>
+   

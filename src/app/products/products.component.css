@@ -1,0 +1,32 @@
+img {
+    height: 300px;
+    width: 208px;
+    align-items: center;
+  }
+  button{
+    margin-left: 44px;
+    text-align: center;
+  }
+  h5
+  {
+    color: black;
+    text-align: center;
+      font-size: medium;
+  }
+
+  .card {
+  margin-left: 40px;
+    height: 200px;
+    border: none;
+    width: 200px
+
+  }
+
+  .card_img {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid;
+
+  }
