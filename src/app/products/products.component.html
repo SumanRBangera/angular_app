@@ -70,3 +70,49 @@
       
     </div>
   </div>
+
+  <br>
+  <hr>
+
+  
+  <h1 style="text-align:center; background-color: rgba(65, 62, 63, 0.523); margin-left:400px;margin-right:400px; border-radius: 10px 10px 25px 25px;">PRODUCT LISTS</h1>
+
+
+
+<hr>
+<div  > 
+
+    <div *ngFor="let pdetails of productdetails" >
+      <div class="row col col-3 col-md-4 " style="float: left;" >     
+        <div class="col col col-3 col-md-4"  style="margin-left:100px;" >
+                <div class="card" style="width: 15rem; height: 460px; background-color: rgba(83, 81, 77, 0.301); margin-left: 1.3em;" >
+                  <img  [src]="pdetails.img" class="card-img-top" alt="product" style="align-items: center; margin-left:1em; margin-top: 1em;"/>
+                    <div class="card-body">
+                      <h5 class="card-title">{{pdetails.pname}} </h5>
+                      <p class="card-text" [style.color]="'Blue'"> {{pdetails.pdescription}}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                     
+                      <ul [ngSwitch]="pdetails.status" class="list-group-item" style="font-weight:bold;">
+                        <li *ngSwitchCase="'In Stock'" class="text-success">
+                          {{pdetails.status }}
+                        </li>
+                        <li *ngSwitchCase="'Out of Stock'" class="text-danger">
+                          {{pdetails.status }}
+                        </li>
+                      </ul>
+
+                      <li class="list-group-item" style="font-weight:bold; ">{{pdetails.price | currency:'INR'}}</li>
+                    </ul>
+                    <div class="card-body">
+                      <button style="height: 50px; width: 100px; background-color: rgba(67, 67, 71, 0.865); font-weight: bold; color: white;" href="#" class="card-link">Buy</button>
+                     
+                    </div>
+                  </div>
+                  <br> <br>
+        </div>
+    </div>
+  </div>
+</div>
+
+
