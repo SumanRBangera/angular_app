@@ -1,0 +1,32 @@
+[
+    {
+        "pid":1,
+        "pname":"Perfume-4",
+        "pdescription":"Four Assorted Perfume Glass Bottles",
+        "price":2000,
+        "img":"../../assets/images/perfumes/1.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Focus perfume",
+        "pdescription":"Clear Glass Perfume Bottle",
+        "price":1000,
+        "img":"../../assets/images/perfumes/2.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Selective Focus",
+        "pdescription":"Selective Focus perfume",
+        "price":500,
+        "img":"../../assets/images/perfumes/3.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Perfumes",
+        "pdescription":"Dolce and Gabbana Perfume Bottle",
+        "price":1500,
+        "img":"../../assets/images/perfumes/4.jpg"
+    }
+    
+
+]
