@@ -1,0 +1,25 @@
+[
+    {
+        "pid":1,
+        "pname":"Simple T-shirt",
+        "pdescription":"7952 x 5304 px (26.51 x 17.68 in.) - 300 dpi - RGB",
+        "price":750,
+        "img":"../../assets/images/tshirts/1.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"NIKE T-shirt",
+        "pdescription":"NIKE DRI-FIT SWOOSH LOGO T-SHIRT",
+        "price":999,
+        "img":"../../assets/images/tshirts/2.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"T-shirt",
+        "pdescription":"White Simple T-shirt",
+        "price":550,
+        "img":"../../assets/images/tshirts/3.jpg"
+    }
+    
+
+]

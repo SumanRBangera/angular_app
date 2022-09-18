@@ -9,13 +9,36 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { FormsModule } from '@angular/forms';
 
+import { RefrigeratorComponent } from './refrigerator/refrigerator.component';
+import { ShoesComponent } from './shoes/shoes.component';
+import { TshirtsComponent } from './tshirts/tshirts.component';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+import { AdvertisementComponent } from './advertisement/advertisement.component';
+import { MainComponent } from './main/main.component';
+import { MaindealsComponent } from './main/maindeals/maindeals.component';
+import { CounterComponent } from './counter/counter.component';
+import { CounterchildComponent } from './counter/counterchild/counterchild.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     SearchComponent,
     HomeComponent,
-    ProductsComponent
+    ProductsComponent,
+    RefrigeratorComponent,
+    ShoesComponent,
+    TshirtsComponent,
+    AllproductsComponent,
+    AdvertisementComponent,
+    MainComponent,
+    MaindealsComponent,
+    CounterComponent,
+    CounterchildComponent
+
+   
   ],
   imports: [
     BrowserModule,

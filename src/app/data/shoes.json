@@ -1,0 +1,32 @@
+[
+    {
+        "pid":1,
+        "pname":"PUMA",
+        "pdescription":"PUMA Claw Men's Shoes",
+        "price":2000,
+        "img":"../../assets/images/shoes/1.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Claremont Tan Shoes",
+        "pdescription":"Men's Alpargata Claremont Tan Shoes",
+        "price":1000,
+        "img":"../../assets/images/shoes/2.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Heel Court Shoes",
+        "pdescription":"Platform Stiletto Heel Court Shoes",
+        "price":30000,
+        "img":"../../assets/images/shoes/3.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"SNEAKERS",
+        "pdescription":"RELIVE KNIT SNEAKERS",
+        "price":1500,
+        "img":"../../assets/images/shoes/4.jpg"
+    }
+    
+
+]
