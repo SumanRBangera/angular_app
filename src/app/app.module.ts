@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { FormsModule } from '@angular/forms';
 
-import { RefrigeratorComponent } from './refrigerator/refrigerator.component';
+
 import { ShoesComponent } from './shoes/shoes.component';
 import { TshirtsComponent } from './tshirts/tshirts.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
@@ -28,7 +28,7 @@ import { CounterchildComponent } from './counter/counterchild/counterchild.compo
     SearchComponent,
     HomeComponent,
     ProductsComponent,
-    RefrigeratorComponent,
+   
     ShoesComponent,
     TshirtsComponent,
     AllproductsComponent,
