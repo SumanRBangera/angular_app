@@ -18,6 +18,7 @@ import { MainComponent } from './main/main.component';
 import { MaindealsComponent } from './main/maindeals/maindeals.component';
 import { CounterComponent } from './counter/counter.component';
 import { CounterchildComponent } from './counter/counterchild/counterchild.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 
@@ -36,7 +37,8 @@ import { CounterchildComponent } from './counter/counterchild/counterchild.compo
     MainComponent,
     MaindealsComponent,
     CounterComponent,
-    CounterchildComponent
+    CounterchildComponent,
+    ContactsComponent
 
    
   ],
