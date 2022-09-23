@@ -1,0 +1,39 @@
+input {
+    width: 60%;
+    margin-left: 50px;
+}
+
+label {
+    margin-left: 50px;
+}
+h4{
+    margin-left: 600px;
+
+}
+
+form {
+    padding: 20px;
+    margin-left: 130px;
+    margin-top: 40px;
+    width: 60%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: rgb(75, 72, 72);
+    box-shadow: 5px 6px 10px rgb(81, 81, 78);
+    color: rgb(94, 90, 90);
+}
+
+
+button {
+    margin-left: 120px;
+}
+
+span {
+    width: 60%;
+    margin-left: 100px;
+}
+marquee{
+    text-shadow:2px 3px 3px rgba(121, 121, 118, 0.724);
+    
+    font-size: 18px;
+}

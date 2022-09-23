@@ -3,9 +3,9 @@
     class="container-fluid"
     style="background-color: rgba(215, 199, 199, 0.251)"
   >
-    <img [src]="logo" alt="amazon" />
-    <a class="navbar-brand" href="#"
-      ><b>{{ title }}</b></a
+  <a class="navbar-brand" href="#">
+
+    <img [src]="logo" alt="FC" /><b>{{ title }}</b></a
     >
     <button
       class="navbar-toggler"
@@ -24,9 +24,15 @@
           <a class="nav-link active" aria-current="page" routerLink="">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="products">Products</a>
+          <a class="nav-link" routerLink="login" *ngIf="!auth">Login</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="reg" *ngIf="!auth">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="products" *ngIf="auth">Products</a>
+        </li>
+        <li class="nav-item dropdown" *ngIf="auth">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Accessories
           </a>
@@ -36,20 +42,25 @@
             <li><a class="dropdown-item" routerLink="tshirts">T-shirts</a></li>
             <li><a class="dropdown-item" routerLink="allp">All Products</a></li>
             <li><a class="dropdown-item" routerLink="maindeals">Main Deals</a></li>
+            
           </ul>
         </li> 
+        <li class="nav-item">
+          <a class="nav-link" routerLink="pdetail" *ngIf="auth">Product Details</a>
+        </li>
 
       
         <li class="nav-item">
           <a
             class="nav-link"
             
-            routerLink="contact"
+            routerLink="contact" *ngIf="auth"
             >Contact</a
           >
         </li>
       </ul>
       <form class="d-flex">
+        
         <input
           class="form-control me-2"
           type="search"
@@ -66,6 +77,13 @@
           <b>Search</b>
         </button>
         <app-search [product]="productentered"></app-search>
+        <br>
+        <br>
+        <button routerLink='cartitem' style="height:5px;border:none;" *ngIf="auth">
+          <span class="fa fa-cart-plus" style="font-size:16px;color:black"><sup class="text-warning" style="font-size:10px;margin-left: 3px;;">{{cartCount}}</sup></span>
+        </button> &nbsp;&nbsp;&nbsp;
+        <a class="nav-link" type="submit"  routerLink="login"
+          *ngIf="auth" style="color: black;">Logout</a>
       </form>
     </div>
   </div>

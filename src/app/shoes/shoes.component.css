@@ -6,3 +6,8 @@ img{
 hr{
     border: 1.5px solid rgba(98, 93, 93, 0.285);
 }
+marquee{
+    text-shadow:2px 3px 3px rgba(121, 121, 118, 0.724);
+    
+    font-size: 18px;
+}

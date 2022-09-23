@@ -1,0 +1,164 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "pname": "Apple iphone",
+      "pdescription": "Apple iPhone 12 (64GB) - Blue",
+      "price": 50000,
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/41xssMLI2DL._SY445_SX342_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": 2,
+      "pname": "Titan Watch",
+      "pdescription": "Titan watch for girls",
+      "price": 1500,
+      "img": "https://static-01.daraz.com.np/p/483739b555784acbee3874e5d9f8ffb0.jpg"
+    },
+    {
+      "id": 3,
+      "pname": "Sony TV",
+      "pdescription": "Sony Bravia LED TV - 65 inch",
+      "price": 35000,
+      "img": "https://th.bing.com/th/id/OIP.z35a_DfUQDnaHz2Nh8y7OgHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 4,
+      "pname": "T-shirt",
+      "pdescription": "Crew-Neck T-shirt with Branding",
+      "price": 3000,
+      "img": "https://assets.ajio.com/medias/sys_master/root/h45/h3a/11803571781662/-473Wx593H-460265473-multi-MODEL6.jpg"
+    },
+    {
+      "id": 5,
+      "pname": "LG",
+      "pdescription": "LG - 500 litres",
+      "price": 18990,
+      "img": "https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+    },
+    {
+      "id": 6,
+      "pname": "Whirpool",
+      "pdescription": "Whirlpool - Single Door",
+      "price": 11990,
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-jFitvGokxdqqClUXuZNSebA0vg2fnQxLUP31KC-UHfNPACHmiuH13qmJ_t2oJgVRU5nO4xaLZdcuw8UZk9-0jNR9Ay4EPy4TTms2bCQj&usqp=CAE"
+    },
+    {
+      "id": 7,
+      "pname": "Godrej",
+      "pdescription": "Godrej - Double Door",
+      "price": 21290,
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTg01f1ZxiVCl5P-pvUiZFudHHGzqthqP03JaA3iC5p-YIjms0-88OSFqpNlbB9EloA3GJAJ_0FVGLWZDbZbaB4pXra30Z0ya675xlntrHKA03l8yMgdXljaQ&usqp=CAE"
+    }
+  ],
+  "users": [
+    {
+      "username": "john@gmail.com",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "John@123",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898",
+      "id": 3
+    },
+    {
+      "username": "Jancy",
+      "useremail": "jancy@gmail.com",
+      "password": "jancy123",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "username": "Suman",
+      "useremail": "suman@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 5
+    },
+    {
+      "username": "Suman",
+      "useremail": "suman12@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "username": "sss",
+      "useremail": "ss@gmil.com",
+      "password": "",
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "username": "sam",
+      "useremail": "sam@gmailcom",
+      "password": "",
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "username": "sam",
+      "useremail": "sam@gmailcom",
+      "password": "",
+      "mobile": "",
+      "id": 9
+    },
+    {
+      "username": "Suman",
+      "useremail": "suman@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "username": "Suman",
+      "useremail": "suman@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 11
+    },
+    {
+      "username": "www",
+      "useremail": "www@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 12
+    },
+    {
+      "username": "qqqqqqq",
+      "useremail": "qqq@gmail.com",
+      "password": "1234567890",
+      "mobile": "1234567890",
+      "id": 13
+    },
+    {
+      "username": "Sumanbangera",
+      "useremail": "suman@gmail.com",
+      "password": "1234567890",
+      "mobile": "1233456778",
+      "id": 14
+    }
+  ],
+  "cart": [
+    {
+      "pname": "Perfume-4",
+      "pdescription": "Four Assorted Perfume Glass Bottles",
+      "price": 2000,
+      "img": "../../assets/images/perfumes/1.jpg",
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "pname": "Selective Focus",
+      "pdescription": "Selective Focus perfume",
+      "price": 500,
+      "img": "../../assets/images/perfumes/3.jpg",
+      "quantity": 1,
+      "id": 9
+    }
+  ]
+}
