@@ -11,7 +11,8 @@ import Swal from 'sweetalert2';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-
+  public logo="../../assets/download-modified.png";
+  
   userurl=environment.userapi;
   registerForm=new FormGroup({
     username:new FormControl(''),

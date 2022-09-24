@@ -32,7 +32,7 @@
       "id": 5,
       "pname": "LG",
       "pdescription": "LG - 500 litres",
-      "price": 18990,
+      "price": "18991",
       "img": "https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7"
     },
     {
@@ -41,13 +41,6 @@
       "pdescription": "Whirlpool - Single Door",
       "price": 11990,
       "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-jFitvGokxdqqClUXuZNSebA0vg2fnQxLUP31KC-UHfNPACHmiuH13qmJ_t2oJgVRU5nO4xaLZdcuw8UZk9-0jNR9Ay4EPy4TTms2bCQj&usqp=CAE"
-    },
-    {
-      "id": 7,
-      "pname": "Godrej",
-      "pdescription": "Godrej - Double Door",
-      "price": 21290,
-      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTg01f1ZxiVCl5P-pvUiZFudHHGzqthqP03JaA3iC5p-YIjms0-88OSFqpNlbB9EloA3GJAJ_0FVGLWZDbZbaB4pXra30Z0ya675xlntrHKA03l8yMgdXljaQ&usqp=CAE"
     }
   ],
   "users": [
@@ -141,6 +134,13 @@
       "password": "1234567890",
       "mobile": "1233456778",
       "id": 14
+    },
+    {
+      "username": "gggggg",
+      "useremail": "ggg@gmail.com",
+      "password": "1234567890",
+      "mobile": "6362511421",
+      "id": 15
     }
   ],
   "cart": [

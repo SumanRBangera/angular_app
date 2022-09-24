@@ -18,7 +18,7 @@ export class NavComponent implements OnInit {
   cartCount: number=0;
   //Accessing the Search Component
   //Property
-  productentered: string=' '  //Laptop
+  /*productentered: string=' '  //Laptop
 
   //Event
   search_product(product_name:string):void{ //Laptop
@@ -28,7 +28,7 @@ export class NavComponent implements OnInit {
     }
     this.productentered=product_name; //Laptop
     console.log(product_name)
-  }
+  }*/
 
   ngOnInit(): void {
     this.authService.authSubject.subscribe(

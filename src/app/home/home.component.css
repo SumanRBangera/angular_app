@@ -11,3 +11,27 @@ marquee{
     
     font-size: 18px;
 }
+h5
+  {
+    color: black;
+    text-align: center;
+      font-size: medium;
+  }
+  
+    .card_img {
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: 2px solid;
+      height: 300px;
+    width: 208px;
+    align-items: center;
+  
+    }
+    h5
+  {
+    color: black;
+    text-align: center;
+      font-size: medium;
+  }
