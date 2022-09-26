@@ -25,22 +25,8 @@
       "id": 4,
       "pname": "T-shirt",
       "pdescription": "Crew-Neck T-shirt with Branding",
-      "price": 3000,
+      "price": "30001",
       "img": "https://assets.ajio.com/medias/sys_master/root/h45/h3a/11803571781662/-473Wx593H-460265473-multi-MODEL6.jpg"
-    },
-    {
-      "id": 5,
-      "pname": "LG",
-      "pdescription": "LG - 500 litres",
-      "price": "18991",
-      "img": "https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7"
-    },
-    {
-      "id": 6,
-      "pname": "Whirpool",
-      "pdescription": "Whirlpool - Single Door",
-      "price": 11990,
-      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-jFitvGokxdqqClUXuZNSebA0vg2fnQxLUP31KC-UHfNPACHmiuH13qmJ_t2oJgVRU5nO4xaLZdcuw8UZk9-0jNR9Ay4EPy4TTms2bCQj&usqp=CAE"
     }
   ],
   "users": [
@@ -141,6 +127,34 @@
       "password": "1234567890",
       "mobile": "6362511421",
       "id": 15
+    },
+    {
+      "username": "eeeeeee",
+      "useremail": "eee@gmail.com",
+      "password": "1234567890",
+      "mobile": "1234567889",
+      "id": 16
+    },
+    {
+      "username": "mmmmmm",
+      "useremail": "mmm@gmail.com",
+      "password": "1234567890",
+      "mobile": "1234567889",
+      "id": 17
+    },
+    {
+      "username": "banger",
+      "useremail": "banger@gmail.com",
+      "password": "1234567890",
+      "mobile": "1234567890",
+      "id": 18
+    },
+    {
+      "username": "Bangera",
+      "useremail": "bangera@gmail.com",
+      "password": "1234567890",
+      "mobile": "6362511421",
+      "id": 19
     }
   ],
   "cart": [
@@ -159,6 +173,30 @@
       "img": "../../assets/images/perfumes/3.jpg",
       "quantity": 1,
       "id": 9
+    },
+    {
+      "pname": "Perfume-4",
+      "pdescription": "Four Assorted Perfume Glass Bottles",
+      "price": 2000,
+      "img": "../../assets/images/perfumes/1.jpg",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "pname": "Perfume-4",
+      "pdescription": "Four Assorted Perfume Glass Bottles",
+      "price": 2000,
+      "img": "../../assets/images/perfumes/1.jpg",
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "pname": "Focus perfume",
+      "pdescription": "Clear Glass Perfume Bottle",
+      "price": 1000,
+      "img": "../../assets/images/perfumes/2.jpg",
+      "quantity": 1,
+      "id": 12
     }
   ]
 }
